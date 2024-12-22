@@ -10,4 +10,9 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'my-demo-project';
+
+  SayHello() {
+    console.log('Hello, my-demo-project');
+
+  }
 }
